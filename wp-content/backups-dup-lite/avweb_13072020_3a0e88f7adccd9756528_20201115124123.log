@@ -1,0 +1,13 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 15/11/2020 12:56
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.3.38
+WORDPRESS:	5.5.3
+PHP INFO:	7.1.33 | SAPI: cgi-fcgi
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (64M default) 
+MEMORY STACK: 20MB
+[PHP ERR][NOTICE] MSG:Use of undefined constant ‘ALLOW_UNFILTERED_UPLOADS’ - assumed '‘ALLOW_UNFILTERED_UPLOADS’' [CODE:8|FILE:/srv/disk1/2969090/www/avweb.eu/wp-config.php|LINE:83]
+DUP_Handler::shutdown, DUP_Handler::error, DUP_Handler::getMessage

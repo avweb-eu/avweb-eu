@@ -1,0 +1,86 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 10/01/2021 21:44
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.3.40.1
+WORDPRESS:	5.6
+PHP INFO:	7.1.33 | SAPI: cgi-fcgi
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (64M default) 
+MEMORY STACK: 4MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+SQL CREATED: avweb_10012021_cea855f895e8d5f72395_20210110214436_database.sql
+SQL FILE SIZE: 18.12MB (18997749)
+SQL FILE TIME: 2021-01-10 21:44:56
+SQL RUNTIME: 0.59 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  /srv/disk1/2969090/www/avweb.eu
+ARCHIVE FILE: avweb_10012021_cea855f895e8d5f72395_20210110214436_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	164.48MB
+STATS:	Dirs 635 | Files 4,484
+SQL ADDED: avweb_10012021_cea855f895e8d5f72395_20210110214436_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 5119
+    [filename] => /srv/disk1/2969090/www/avweb.eu/wp-content/backups-dup-lite/tmp/avweb_10012021_cea855f895e8d5f72395_20210110214436_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 5118
+[PHP ERR][NOTICE] MSG:ob_flush(): failed to flush buffer. No buffer to flush [CODE:8|FILE:/srv/disk1/2969090/www/avweb.eu/wp-content/plugins/duplicator/classes/utilities/class.u.php|LINE:171]
+do_action('wp_ajax_duplicator_package_build'), WP_Hook->do_action, WP_Hook->apply_filters, duplicator_package_build, DUP_Package->runZipBuild, DUP_Archive->build, DUP_Zip::create, DUP_Util::fcgiFlush, ob_flush, DUP_Handler::error, DUP_Handler::getMessage
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 99.03MB
+ARCHIVE RUNTIME: 27.05 sec.
+MEMORY STACK: 6MB
+building installer
+add_extra_files1
+add_extra_files2
+add_extra_files3
+add_extra_files4
+Doing archive file check
+add_extra_files5
+add_extra_files6
+add_extra_files8
+Successfully opened zip /srv/disk1/2969090/www/avweb.eu/wp-content/backups-dup-lite/tmp/avweb_10012021_cea855f895e8d5f72395_20210110214436_archive.zip
+Adding enhanced installer files to archive using ZipArchive
+Installer files added to archive
+Added to archive
+After ziparchive close when adding installer
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 18.12MB
+INSTALLER FILE: 61.29KB
+ARCHIVE FILE: 100.54MB 
+EXPECTED FILE/DIRECTORY COUNT: 5,119
+ACTUAL FILE/DIRECTORY COUNT: 5,118
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[10]
+TOTAL PROCESS RUNTIME: 28.45 sec.
+PEAK PHP MEMORY USED: 8MB
+DONE PROCESSING => avweb_10012021 10/01/2021 21:45
+
